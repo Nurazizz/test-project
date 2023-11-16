@@ -1,0 +1,37 @@
+@import url(./css/bootstrap.css);
+
+.navbar-brand{
+	color:rgba(248, 249, 250, 1);
+}
+
+ .btn-primary{
+	background: var(--primary-color, #7749F8);
+}
+.btnbtnsecondary{
+	background-color: #7749F8;
+	width: 200px;
+	padding:6px;
+	height: 100px;
+	color:aliceblue;
+	border-radius: 3px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.cards{
+	background-color: #7749F8;
+	color:#fff;
+}
+.collapse{
+	color:#F8F9FA;
+}
+@media screen and (max-width:768px) {
+	main{
+		.main{
+			flex-direction: column;
+		}
+		.main-too{
+			flex-direction: column;
+		}
+	}
+}
